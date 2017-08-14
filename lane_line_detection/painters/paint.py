@@ -67,7 +67,7 @@ class Painter:
         cv2.putText(
             processed,
             "Vehicle is {:.2f}m {} of center".format(
-                abs(offset),"left" if offset < 0 else "right"
+                abs(offset),"right" if offset < 0 else "left"
             ),
             (10,90),
             cv2.FONT_HERSHEY_SIMPLEX,

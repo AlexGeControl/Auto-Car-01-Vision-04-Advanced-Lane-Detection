@@ -113,10 +113,10 @@ class StreamAnalyzer(TransformerMixin):
         right_lane_line_params
     ):
         top_diff = (
-            np.polyval(right_lane_line_params, 0) - np.polyval(left_lane_line_params, 0)
+            np.polyval(right_lane_line_params, 1) - np.polyval(left_lane_line_params, 1)
         )
         bottom_diff = (
-            np.polyval(right_lane_line_params, 719) - np.polyval(left_lane_line_params, 719)
+            np.polyval(right_lane_line_params, 718) - np.polyval(left_lane_line_params, 718)
         )
 
         ratio = top_diff/ bottom_diff

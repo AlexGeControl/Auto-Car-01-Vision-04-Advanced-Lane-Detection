@@ -41,7 +41,7 @@
 	"analyzer_meter_per_pix": [0.00578125, 0.05292479],
 	"analyzer_pickle" : "output/analyzer-deployment.pickle",
 
-	"stream_analyzer_temporal_filter_len": 11,
+	"stream_analyzer_temporal_filter_len": 17,
 	"stream_analyzer_pickle" : "output/stream-analyzer-deployment.pickle",
 
 	"painter_pickle" : "output/painter-deployment.pickle"
