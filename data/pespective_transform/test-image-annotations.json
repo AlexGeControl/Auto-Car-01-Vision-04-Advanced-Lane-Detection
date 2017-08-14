@@ -1,0 +1,24 @@
+[
+    {
+        "annotations": [
+            {
+                "class": "polygon",
+                "xn": "687.6000000000006;593.6500000000005;240.35000000000002;1066.2565477055705",
+                "yn": "452.5500000000004;452.6000000000004;696.6;696.8457653778206"
+            }
+        ],
+        "class": "image",
+        "filename": "output_images/straight_lines1-rectified.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "polygon",
+                "xn": "690.6;594.75;252.60000000000002;1073.2",
+                "yn": "451.65000000000003;451.6;696.9000000000001;696.85"
+            }
+        ],
+        "class": "image",
+        "filename": "output_images/straight_lines2-rectified.jpg"
+    }
+]

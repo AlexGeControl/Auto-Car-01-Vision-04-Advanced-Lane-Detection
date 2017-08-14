@@ -1,0 +1,48 @@
+{
+	"test_images": "test_images/*.jpg",
+
+	"frame_size": [1280, 720],
+
+	"calibration_images_descriptor": "camera_calibration/*.jpg",
+	"calibration_rectifier_pickle": "output/rectifier-deployment.pickle",
+
+	"perspective_transform_trapezoidal_annotation": "data/pespective_transform/test-image-annotations.json",
+	"perspective_transform_source": [
+		[ 594.2, 452.1],
+		[ 689.1, 452.1],
+		[1069.7, 696.8],
+		[ 246.5, 696.8]
+	],
+	"perspective_transform_destination": [
+		[   320,     1],
+	 	[   960,     1],
+	 	[   960,   718],
+  	[   320,   718]
+	],
+	"perspective_transformer_pickle": "output/transformer-deployment.pickle",
+
+	"binarizer_ROI": [
+		[ 592, 452],
+		[ 691, 452],
+		[1279, 700],
+		[   0, 700]
+	],
+	"binarizer_yellow_lane_hue_thresholds": [19,  23],
+	"binarizer_yellow_lane_saturation_thresholds": [ 64, 255],
+	"binarizer_white_lane_saturation_thresholds": [0, 20],
+	"binarizer_white_lane_value_thresholds": [190,  255],
+	"binarizer_gradient_kernel_size": 5,
+	"binarizer_gradient_thresholds": [32, 128],
+	"binarizer_morphology_kernel_size": 3,
+	"binarizer_pickle" : "output/binarizer-deployment.pickle",
+
+	"analyzer_window_size": [61, 80],
+	"analyzer_offset": 30,
+	"analyzer_meter_per_pix": [0.00578125, 0.05292479],
+	"analyzer_pickle" : "output/analyzer-deployment.pickle",
+
+	"stream_analyzer_temporal_filter_len": 11,
+	"stream_analyzer_pickle" : "output/stream-analyzer-deployment.pickle",
+
+	"painter_pickle" : "output/painter-deployment.pickle"
+}
