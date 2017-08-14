@@ -309,6 +309,24 @@ The source points on the straight line annotation image and its warped counterpa
 
 <img src="writeup_images/02-perspective-transform-demo.png" width="100%" alt="Perspective Transformation" />
 
+The transformed test images are as follows.
+
+<img src="writeup_images/02-perspective-transform-demo-straight-lines01.png" width="100%" alt="Image Transformation, Straight-Line 01" />
+
+<img src="writeup_images/02-perspective-transform-demo-straight-lines02.png" width="100%" alt="Image Transformation, Straight-Line 02" />
+
+<img src="writeup_images/02-perspective-transform-demo-test01.png" width="100%" alt="Image Transformation, Test 01" />
+
+<img src="writeup_images/02-perspective-transform-demo-test02.png" width="100%" alt="Image Transformation, Test 02" />
+
+<img src="writeup_images/02-perspective-transform-demo-test03.png" width="100%" alt="Image Transformation, Test 03" />
+
+<img src="writeup_images/02-perspective-transform-demo-test04.png" width="100%" alt="Image Transformation, Test 04" />
+
+<img src="writeup_images/02-perspective-transform-demo-test05.png" width="100%" alt="Image Transformation, Test 05" />
+
+<img src="writeup_images/02-perspective-transform-demo-test06.png" width="100%" alt="Image Transformation, Test 06" />
+
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 The whole procedure is wrapped up as a sklearn Transformer subclass and is contained in the module [lane_line_detection.analyzers](lane_line_detection/analyzers/analyze.py).
